@@ -1,0 +1,22 @@
+.bg-blur {
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+.result-card {
+  background: #ffffff;
+  max-width: 400px;
+  width: 90%;
+  border-radius: 1rem;
+  position: relative;
+}
+
+.badge-icon {
+  font-size: 3rem;
+}
+
+.score-display {
+  border: 2px dashed #ffc107;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background: #fffbea;
+}
