@@ -1,5 +1,5 @@
 
-const BASE_URL= "http://localhost:3000";
+const BASE_URL= "https://quizzfy-backend-1.onrender.com";
 export default{
     SIGN_UP:BASE_URL+"/user/signUp",
     SIGN_IN:BASE_URL+"/user/signIn",
