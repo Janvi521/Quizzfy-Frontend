@@ -15,7 +15,7 @@ const [quizzes,setQuizzes]=useState([]);
  // console.log("currectUser",quizzes);
 const fetchAllDetails = async () => {
   try {
-    const all = await axios.get(`http://localhost:3000/user/quizAll/${currentUser._id}`);
+    const all = await axios.get(`https://quizzfy-backend-1.onrender.com/user/quizAll/${currentUser._id}`);
     setQuizzes(all.data.quizAll); 
     console.log("Populated quizAll:", all.data.quizAll);  
   } catch (error) {
