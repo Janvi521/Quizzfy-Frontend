@@ -9,7 +9,7 @@ import Events from "./events/Events"
 import Students from "./students/Students"
 import Profile from "./Setting/Profile";
 import CreateQuiz1 from "./createQuiz/CreateQuiz1"
-import CreateQuiz2 from "./createQuiz/createQuiz2";
+import CreateQuiz2 from "./createQuiz/CreateQuiz2";
 import QuizLibrary from "./quizzes/QuizLibrary"
 import StudentInfo from "./studentInterface/studentInfo"
 import Questions from "./studentInterface/Question"
