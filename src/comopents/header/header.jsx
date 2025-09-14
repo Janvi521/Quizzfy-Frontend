@@ -27,9 +27,9 @@ function Header(){
             <Link to="/signUp" className="btn btn-primary px-4">
               Join Now
             </Link>
-            <a href="#" className="btn btn-outline-light px-4 ms-3">
+{/*             <a href="#" className="btn btn-outline-light px-4 ms-3">
               Learn More
-            </a>
+            </a> */}
           </div>
         </div>
       </header>
