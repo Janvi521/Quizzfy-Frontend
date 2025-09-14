@@ -44,12 +44,12 @@ function HomeNavbar() {
 
         {/* Center + Right */}
         <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
+{/*           <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
             <li className="nav-item"><Link className="nav-link text-white" to="/Quiz">Quiz</Link></li>
             <li className="nav-item"><a className="nav-link text-white" href="#">Topics</a></li>
             <li className="nav-item"><a className="nav-link text-white" href="#">Rewards</a></li>
             <li className="nav-item"><a className="nav-link text-white" href="#">About</a></li>
-          </ul>
+          </ul> */}
 
           {/* 🔍 Search Bar with hint under input and button beside */}
           <div className="d-flex flex-column align-items-start me-3" style={{ position: "relative", maxWidth: "300px" }}>
