@@ -63,7 +63,7 @@ function CreateQuiz2() {
     createdBy: currentUser._id
   };
     axios
-      .post("https://quizzfy-backend-1.onrender.com/api/submit-quiz",payload)
+      .post("https://quizzfy-backend-2.onrender.com/api/submit-quiz",payload)
       .then((res) => {
         console.log("Quiz submitted:", res.data);
         alert("Quiz submitted successfully!");
