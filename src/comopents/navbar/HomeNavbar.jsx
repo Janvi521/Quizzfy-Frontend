@@ -31,14 +31,14 @@ function HomeNavbar() {
 
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-black border-bottom border-secondary shadow-sm">
-      <div className="container">
+      <div className="container-fluid">
         {/* Logo */}
         <Link to="/" className="navbar-brand fw-bold text-gradient dark">
           <h3 className="mb-0"><strong>Quizzfy</strong></h3>
         </Link>
 
         {/* Toggle */}
-        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
 
@@ -52,7 +52,7 @@ function HomeNavbar() {
           </ul> 
 
           {/* 🔍 Search Bar with hint under input and button beside */}
-          <div className="d-flex flex-column align-items-start me-3" style={{ position: "relative", maxWidth: "300px" }}>
+          <div className="d-flex flex-lg-row flex-column align-items-lg-center align-items-start me-lg-3 my-2 my-lg-0" style={{ position: "relative", maxWidth: "300px" }}>
             <div className="input-group">
               <input
                 type="text"
@@ -71,7 +71,7 @@ function HomeNavbar() {
           </div>
 
           {/* Right Auth Buttons */}
-          <div className="d-flex">
+          <div >className="d-flex flex-lg-row flex-column gap-2 my-2 my-lg-0"
             <Link to="/signIn" className="btn btn-outline-light ms-lg-2">Sign In</Link>
             <Link to="/signUp" className="btn btn-outline-light ms-lg-2 gradient-backGround">Register</Link>
           </div>
