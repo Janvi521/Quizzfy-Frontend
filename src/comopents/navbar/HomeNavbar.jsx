@@ -71,7 +71,7 @@ function HomeNavbar() {
           </div>
 
           {/* Right Auth Buttons */}
-          <div >className="d-flex flex-lg-row flex-column gap-2 my-2 my-lg-0"
+          <div className="d-flex flex-lg-row flex-column gap-2 my-2 my-lg-0" >
             <Link to="/signIn" className="btn btn-outline-light ms-lg-2">Sign In</Link>
             <Link to="/signUp" className="btn btn-outline-light ms-lg-2 gradient-backGround">Register</Link>
           </div>
