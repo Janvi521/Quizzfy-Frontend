@@ -24,7 +24,7 @@ function Header(){
             ultimate quiz platform.
           </p>
           <div className="mt-4">
-            <Link to="/studentInfo" className="btn btn-primary px-4">
+            <Link to="/signUp" className="btn btn-primary px-4">
               Join Now
             </Link>
             <a href="#" className="btn btn-outline-light px-4 ms-3">
