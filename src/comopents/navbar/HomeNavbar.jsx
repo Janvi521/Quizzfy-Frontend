@@ -46,9 +46,9 @@ function HomeNavbar() {
         <div className="collapse navbar-collapse" id="navbarNav">
            <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
 {/*             <li className="nav-item"><Link className="nav-link text-white" to="/Quiz">Quiz</Link></li> */}
-            <li className="nav-item"><a className="nav-link text-white" href="#">Topics</a></li>
+{/*             <li className="nav-item"><a className="nav-link text-white" href="#">Topics</a></li> */}
 {/*             <li className="nav-item"><a className="nav-link text-white" href="#">Rewards</a></li> */}
-            <li className="nav-item"><a className="nav-link text-white ms-5" href="#">About</a></li>
+{/*             <li className="nav-item"><a className="nav-link text-white ms-5" href="#">About</a></li> */}
           </ul> 
 
           {/* 🔍 Search Bar with hint under input and button beside */}
