@@ -171,13 +171,13 @@ toast.error(err?.response?.data?.error || "Something went wrong");
               </button>
             </div>
 
-{/*     <>        <div className="mb-3 text-center">
+      <div className="mb-3 text-center">
               <GoogleLogin 
               onSuccess={responseSuccessGoogle}
                onError={responseErrorGoogle} />
             </div>
 
-            <p className="text-center">___________ or ___________</p> </> */}
+            <p className="text-center">___________ or ___________</p> 
 
             <div className="mb-3">
               <label className="form-label">Full Name</label>
