@@ -25,7 +25,7 @@ function Navbar() {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link className="nav-link text-white" to="/Quiz">Quiz</Link>
+{/*                 <Link className="nav-link text-white" to="/Quiz">Quiz</Link> */}
               </li>
               <li className="nav-item">
 {/*                 <a className="nav-link text-white" href="#">Topics</a> */}
