@@ -28,21 +28,21 @@ function Navbar() {
                 <Link className="nav-link text-white" to="/Quiz">Quiz</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-white" href="#">Topics</a>
+{/*                 <a className="nav-link text-white" href="#">Topics</a> */}
               </li>
               <li className="nav-item">
-                <a className="nav-link text-white" href="#">Rewards</a>
+{/*                 <a className="nav-link text-white" href="#">Rewards</a> */}
               </li>
               <li className="nav-item">
-                <a className="nav-link text-white" href="#">About</a>
+{/*                 <a className="nav-link text-white" href="#">About</a> */}
               </li>
             </ul>
 
             {/* Right Side Buttons */}
             <div className="d-flex">
               
-              <Link to="/signIn"  className="btn btn-outline-light ms-lg-2" >Sign In</Link>
-              <Link to="/signUp" className="btn btn-outline-light ms-lg-2 gradient-backGround">Register</Link>
+{/*               <Link to="/signIn"  className="btn btn-outline-light ms-lg-2" >Sign In</Link> */}
+              <Link to="/" className="btn btn-outline-light ms-lg-2 gradient-backGround">Sign Out</Link>
             </div>
           </div>
         </div>
