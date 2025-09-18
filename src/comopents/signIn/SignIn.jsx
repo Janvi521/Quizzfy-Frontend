@@ -98,12 +98,14 @@ const responseSuccessGoogle = (response) => {
           <div className="bg-white p-4 rounded shadow" style={{ maxWidth: "500px", width: "100%" }}>
             <strong className="fs-3">Welcome Back</strong>
             <p className="text-muted mb-4">Enter your credentials to access your account</p>
-
-{/*             <div className="mb-3 text-center">
+{/* 
+            <>
+            <div className="mb-3 text-center">
               <GoogleLogin onSuccess={responseSuccessGoogle} onError={responseErrorGoogle} />
             </div>
 
-            <p className="text-center">___________ or ___________</p> */}
+            <p className="text-center">___________ or ___________</p> 
+</> */}
 
            
 
