@@ -62,10 +62,10 @@ const Profile = () => {
                 <input type="text" className="form-control  text-white border-0" defaultValue="janvi" style={{background:"#070737ff"}}  />
               </div>
 
-              <div className="col-md-5">
+{/*               <div className="col-md-5">
                 <label className="form-label">Last Name</label>
                 <input type="text" className="form-control  text-white border-0" defaultValue="ojha"   style={{background:"#070737ff"}}  />
-              </div>
+              </div> */}
             </div>
 
             <div className="row mb-4">
@@ -86,9 +86,9 @@ const Profile = () => {
               </textarea>
             </div>
 
-            <div className="d-flex justify-content-end">
+{/*             <div className="d-flex justify-content-end">
               <button className="btn btn-primary">Save Changes</button>
-            </div>
+            </div> */}
           </div>
 
           {/* Footer Help */}
