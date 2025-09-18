@@ -83,7 +83,7 @@ const fetchAllDetails = async () => {
                         <div className="card text-white bg-dark mb-3">
                             <div className="card-body">
                                 <h5>Students</h5>
-                                <h2>2,543</h2>
+                                <h2>{quizzes.length}</h2>
                                 <span className="text-success">+12.5%</span>
                             </div>
                         </div>
