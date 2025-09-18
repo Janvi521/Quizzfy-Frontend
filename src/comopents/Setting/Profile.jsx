@@ -38,12 +38,12 @@ const Profile = () => {
 
           {/* Tabs */}
           <div className="d-flex  gap-3 mb-4">
-            <button className="btn btn-purple ">Profile</button>
+{/*             <button className="btn btn-purple ">Profile</button>
             <button className="btn btn-purple">Account</button>
             <button className="btn btn-purple">Notifications</button>
             <button className="btn btn-purple">Appearance</button>
             <button className="btn btn-purple">Privacy</button>
-            <button className="btn btn-purple">Billing</button>
+            <button className="btn btn-purple">Billing</button> */}
           </div>
 
           {/* Profile Information Card */}
@@ -54,7 +54,7 @@ const Profile = () => {
             <div className="row align-items-center mb-4">
               <div className="col-md-2 text-center">
                 <div className="rounded-circle bg-secondary mx-auto bg-light" style={{ width: '80px', height: '80px' }}></div>
-                <button className="btn btn-sm btn-outline-light mt-2">Change Photo</button>
+{/*                 <button className="btn btn-sm btn-outline-light mt-2">Change Photo</button> */}
               </div>
 
               <div className="col-md-5">
